@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+:root {
+    --body-bg-color: #22212C;
+    --text-color: #837E9F;
+    --bg-cards: #302F3D;
+    --bg-techs: #CB92B1;
+  }
+
+svg{
+    border: solid 2px var(--text-color);
+}
+
+body{
+    background-color: var(--body-bg-color);
+    color: var(--text-color);
+    font-family: 'Merriweather Sans';
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 1rem;;
+    gap:1rem;
+}
+
+// container da foto e nametags
+
+.profile{
+    flex: 1;
+    display: flex;
+    background-color: var(--bg-cards);
+    border-radius: 10px; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    gap: 5px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+    img{
+        width: 100px;
+        border-radius: 50%;
+        border: 2px solid greenyellow;
+    }
+
+    h4{
+        font-weight: lighter;
+    }
+}
+
+// container dos links
+
+.links{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-cards);
+    border-radius: 10px; 
+    justify-content: space-between;
+    padding: 30px 30px;
+    font-size: small;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+    .link{
+        color: var(--text-color);
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        color: var(--text-color);
+        img{
+            width: 25px;
+            fill: var(--text-color);
+            color: var(--text-color);
+        }
+
+        a{
+            color: var(--text-color);
+        }
+
+    }
+}
+
+// container das tecnologias
+
+.techs{
+    flex: 1;
+    display: flex;
+    background-color: var(--bg-cards);
+    border-radius: 10px; 
+    border: 0px;
+    padding: 10px;
+    flex-direction: column;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    gap: .8rem;
+
+    .techs-title{
+        flex-wrap: wrap;
+        align-items: left;
+        text-align: left;
+        font-weight: bold;
+        padding-left: 10px;
+    }
+
+    .techs-items{
+        flex-wrap: wrap;
+        align-items: left;
+        text-align: left;
+        flex-direction: row;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        padding-bottom: 10px;
+        padding-top: 0px;
+
+        .tech-item{
+            width: 30%;
+            text-align: center;
+            background-color: var(--bg-techs);
+            color: black;
+            font-size: 15px;
+            border-radius: 10px;
+        }
+
+    }
+}
+
+
+
+
+
