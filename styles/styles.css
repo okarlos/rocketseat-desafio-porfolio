@@ -12,27 +12,23 @@
   --bg-techs: #CB92B1;
 }
 
-svg {
-  border: solid 2px var(--text-color);
-}
-
 body {
   background-color: var(--body-bg-color);
   color: var(--text-color);
   font-family: "Merriweather Sans";
+  display: flex;
 }
 
 aside {
   display: flex;
   flex-direction: column;
-  width: 30%;
-  justify-content: space-between;
+  flex: 1;
+  justify-content: space-around;
   height: 100vh;
   padding: 1rem;
   gap: 1rem;
 }
-
-.profile {
+aside .profile {
   flex: 1;
   display: flex;
   background-color: var(--bg-cards);
@@ -45,43 +41,40 @@ aside {
   gap: 5px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
-.profile img {
+aside .profile img {
   width: 100px;
   border-radius: 50%;
   border: 2px solid greenyellow;
 }
-.profile h4 {
+aside .profile h4 {
   font-weight: lighter;
 }
-
-.links {
+aside .links {
   flex: 2;
   display: flex;
   flex-direction: column;
   background-color: var(--bg-cards);
   border-radius: 10px;
   justify-content: space-between;
-  padding: 30px 30px;
+  padding: 30px 45px;
   font-size: small;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
-.links .link {
+aside .links .link {
   color: var(--text-color);
+  flex-wrap: wrap;
   display: flex;
   gap: 15px;
   align-items: center;
   color: var(--text-color);
 }
-.links .link img {
+aside .links .link img {
   width: 25px;
-  fill: var(--text-color);
+}
+aside .links .link a {
   color: var(--text-color);
 }
-.links .link a {
-  color: var(--text-color);
-}
-
-.techs {
+aside .techs {
   flex: 1;
   display: flex;
   background-color: var(--bg-cards);
@@ -92,14 +85,14 @@ aside {
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   gap: 0.8rem;
 }
-.techs .techs-title {
+aside .techs .techs-title {
   flex-wrap: wrap;
   align-items: left;
   text-align: left;
   font-weight: bold;
   padding-left: 10px;
 }
-.techs .techs-items {
+aside .techs .techs-items {
   flex-wrap: wrap;
   align-items: left;
   text-align: left;
@@ -110,11 +103,81 @@ aside {
   padding-bottom: 10px;
   padding-top: 0px;
 }
-.techs .techs-items .tech-item {
+aside .techs .techs-items .tech-item {
   width: 30%;
   text-align: center;
   background-color: var(--bg-techs);
   color: black;
   font-size: 15px;
   border-radius: 10px;
+}
+
+main {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100vh;
+  padding: 1rem;
+  gap: 1rem;
+}
+main .projects-title {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--bg-cards);
+  border-radius: 10px;
+  border: 0px;
+  padding: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  gap: 0.8rem;
+}
+main .projects {
+  flex: 6;
+  display: flex;
+  background-color: var(--bg-cards);
+  border-radius: 10px;
+  border: 0px;
+  padding: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  gap: 0.8rem;
+}
+main .projects .project {
+  display: flex;
+  flex-direction: column;
+}
+main .projects .project .project-title {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+  flex: 1;
+}
+main .projects .project .project-text {
+  flex: 2;
+}
+main .projects .project .project-icons {
+  display: flex;
+  flex: 1;
+}
+main .posts-title {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--bg-cards);
+  border-radius: 10px;
+  border: 0px;
+  padding: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  gap: 0.8rem;
+}
+main .posts {
+  flex: 6;
+  background-color: var(--bg-cards);
+  border-radius: 10px;
+  border: 0px;
+  padding: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  gap: 0.8rem;
 }/*# sourceMappingURL=styles.css.map */
