@@ -7,9 +7,9 @@ Primeiro desafio da trilha Discover da Rocketseat, botando em prática conhecime
 
 😁 *Primeiro repositório público no GitHub!*
 
-# Buildando a pagina com docker
+### Buildando a pagina com docker
 
-## Requisitos 
+### Requisitos 
 - [Docker](https://docs.docker.com/get-docker/)
 - [Docker Compose](https://docs.docker.com/compose/install/)
 
@@ -38,4 +38,25 @@ localhost:8080
 First challenge of Rocketseat's Discover trail, putting into practice knowledge acquired about CSS, mainly Flexbox. Also first tests with Sass. First time using Git in production.
 
 😁 *First public repository on GitHub!*
+
+### Buildando a pagina com docker
+
+### Requisitos 
+- [Docker](https://docs.docker.com/get-docker/)
+- [Docker Compose](https://docs.docker.com/compose/install/)
+
+1. clone the project
+```
+git https://github.com/okarlos/rocketseat-desafio-porfolio.git && cd rocketseat-desafio-porfolio
+```
+
+2. Once the dependencies are installed
+```
+docker-compose up -d 
+```
+
+5. After that the application will be online and you can use it
+```
+localhost:8080
+```
 
