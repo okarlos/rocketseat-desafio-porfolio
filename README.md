@@ -39,9 +39,9 @@ First challenge of Rocketseat's Discover trail, putting into practice knowledge 
 
 😁 *First public repository on GitHub!*
 
-### Buildando a pagina com docker
+### Building the page with docker
 
-### Requisitos 
+### Requirements 
 - [Docker](https://docs.docker.com/get-docker/)
 - [Docker Compose](https://docs.docker.com/compose/install/)
 
