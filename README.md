@@ -32,7 +32,7 @@ localhost:8080
  
 # rocketseat-challenge-portfolio
 
-# Rocketseat challenge for creating a portfolio page
+## Rocketseat challenge for creating a portfolio page
 
 ### Summary
 First challenge of Rocketseat's Discover trail, putting into practice knowledge acquired about CSS, mainly Flexbox. Also first tests with Sass. First time using Git in production.
