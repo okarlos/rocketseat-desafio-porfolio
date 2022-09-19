@@ -1,4 +1,4 @@
-# rocketseat-desafio-porfolio
+# rocketseat-desafio-portfolio
 
 ## Desafio Rocketseat para a criação de uma página de portfólio
 
@@ -7,7 +7,7 @@ Primeiro desafio da trilha Discover da Rocketseat, botando em prática conhecime
 
 😁 *Primeiro repositório público no GitHub!*
 
-### Buildando a pagina com docker
+### Buildando a página com docker
 
 ### Requisitos 
 - [Docker](https://docs.docker.com/get-docker/)
@@ -15,15 +15,15 @@ Primeiro desafio da trilha Discover da Rocketseat, botando em prática conhecime
 
 1. Clone o projeto
 ```
-git https://github.com/okarlos/rocketseat-desafio-porfolio.git && cd rocketseat-desafio-porfolio
+git clone https://github.com/okarlos/rocketseat-desafio-portfolio.git && cd rocketseat-desafio-portfolio
 ```
 
-2. Uma vez instaladas as dependencias
+2. Uma vez instaladas as dependências
 ```
 docker-compose up -d 
 ```
 
-5. Após isso a aplicação estara online e você poderá utiliza-la
+5. Após isso a aplicação estará online e você poderá utilizá-la
 ```
 localhost:8080
 ```
@@ -47,7 +47,7 @@ First challenge of Rocketseat's Discover trail, putting into practice knowledge 
 
 1. clone the project
 ```
-git https://github.com/okarlos/rocketseat-desafio-porfolio.git && cd rocketseat-desafio-porfolio
+git clone https://github.com/okarlos/rocketseat-desafio-portfolio.git && cd rocketseat-desafio-portfolio
 ```
 
 2. Once the dependencies are installed
